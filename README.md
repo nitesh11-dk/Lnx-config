@@ -1,3 +1,12 @@
+# Setup Script
+
+## Description
+This script automates the setup process by updating the system, installing essential packages, setting up Oh My Zsh, Homebrew, and installing useful utilities and development tools.
+
+---
+
+## Script
+```bash
 #!/bin/bash
 
 # Update and upgrade packages
