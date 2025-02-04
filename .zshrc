@@ -5,8 +5,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME_RANDOM_CANDIDATES=( "norm" "junkfood" "jtriley" "jonathan" "itchy" )
 
-# ZSH_THEME="amuse"
-ZSH_THEME="jonathan"
+ZSH_THEME="amuse"
+
 source "$ZSH/oh-my-zsh.sh" 
 
 plugins=(git)
