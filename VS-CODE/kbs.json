@@ -1,0 +1,15 @@
+[
+    // Markdown Commands
+    {
+        "key": "ctrl+shift+m",
+        "command": "markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+
+
+
+    {
+        "key": "ctrl+alt+end",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    }
+]
