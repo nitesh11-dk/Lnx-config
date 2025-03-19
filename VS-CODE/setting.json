@@ -26,8 +26,7 @@
     "terminal.integrated.accessibleViewPreserveCursorPosition": true,  // Preserves cursor position in accessible terminal view
     // Workbench and Layout Settings
     "workbench.editor.showTabs": "single",  // Show a single tab for the editor
-    "workbench.statusBar.visible": false, // Icon theme for the workbench
-    "workbench.activityBar.location": "hidden",  // Hide the activity bar (left sidebar)
+    "workbench.statusBar.visible": false, // Hide the activity bar (left sidebar)
     "workbench.layoutControl.enabled": false, // Compact mode for the menu bar
 
     // Explorer Settings
@@ -60,6 +59,25 @@
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.commandsToSkipShell": [
         ""
-    ], // Automatically open untrusted files in the workspace
+    ],
+    "git.autofetch": true,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.showOnlyDirectDependenciesInAutoImport": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.enableSyncServer": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "files.autoSaveWhenNoErrors": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
 
 }
